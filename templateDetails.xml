@@ -7,7 +7,7 @@
 	<author>Kadantsev</author>
 	<authorEmail>kadantsev.anton@yandex.ru</authorEmail>
 	<copyright>Copyright (C) 2005 - 2018 Open Source Matters, Inc. All rights reserved.</copyright>
-	<description>Шаблон для сайт по сдаче жилья</description>
+	<description>Шаблон для сайта по сдаче жилья</description>
 	<files>
 		<filename>offline.php</filename>
 		<filename>favicon.ico</filename>
