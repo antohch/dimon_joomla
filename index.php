@@ -24,7 +24,12 @@ JHtml::_('script', 'template.js', array('version' => 'auto', 'relative' => true)
 JHtml::_('script', 'jui/html5.js', array('version' => 'auto', 'relative' => true, 'conditional' => 'lt IE 9'));
 
 // Add Stylesheets
-JHtml::_('stylesheet', 'template.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'bootstrap.min.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'magnifi-popup.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'normalize.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'owl.carousel.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'responsive.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'style.css', array('version' => 'auto', 'relative' => true));
 
 // Use of Google Font
 if ($this->params->get('googleFont'))
