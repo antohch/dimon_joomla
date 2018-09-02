@@ -164,7 +164,6 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 											<p class="head-about">
 												<jdoc:include type="modules" name="on_main_page" style="none" />
 											</p>
-
 										<!--<h5 class="name">
 												Дмитрий
 											</h5>
