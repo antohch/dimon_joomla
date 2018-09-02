@@ -71,6 +71,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 			<div class="for-sticky">
 				<!--LOGO-->
 				<div class="col-md-2 col-xs-6 logo">
+					<jdoc:include type="modules" name="logo" style="none" />
 					<a href="index.html"><img alt="logo" class="logo-nav" src="images/logo.png"></a>
 				</div>
 				<!--/.LOGO END-->
@@ -159,7 +160,9 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 									<div class="wrap-about">
 										<div class="w-content">
 											<p class="head-about">
-												Сдаётся дом посуточно на побережье Азовского моря. <br>1 000 руб. за сутки. Дом полностью укомплектован бытовой техникой и всем необходимым. Всегда очень чисто. Спутниковое TV, интернет по Wi-Fi, сплит-система, стиральная машина и т.д. Горячая, холодная вода круглосуточно. Закрытый двор, парковка бесплатно во дворе. <br><br> До набережной и пляжа "Каменка" (район Аквапарка, детский пляж, меляки) 5-7 мин пешком, до Центрального рынка 5-7 мин пешком, до центрального пляжа 20 мин пешком. В шаговой доступности дельфинарий, аттракционы, магазин Магнит рядом. Расположение смотрите по карте. Звоните, пишите смс, в WhatsApp, Viber, бронируйте. Могу встретить.
+													текст текст те текст текст тетекст текст тетекст текст тетекст текст те
+												<jdoc:include type="component" />
+
 											</p>
 
 											<h5 class="name">
@@ -928,6 +931,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 
 				<!--FOOTER-->
 				<footer>
+					<jdoc:include type="modules" name="footer" style="none" />
 					<div class="footer-top">
 						<ul class="socials">
 							<li class="facebook">
