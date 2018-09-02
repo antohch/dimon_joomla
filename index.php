@@ -77,9 +77,10 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 				<!--/.LOGO END-->
 			</div>
 			<div class="menu-wrap">
-				<jdoc:include type="modules" name="main_menu" style="none" />
 				<nav class="menu">
 					<div class="menu-list">
+						<jdoc:include type="modules" name="main_menu" style="none" />
+						<!--
 						<a data-scroll="" href="#home" class="active">
 							<span>Home</span>
 						</a>
@@ -110,6 +111,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 						<a data-scroll="" href="#contact">
 							<span>Contact</span>
 						</a>
+					-->
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>
@@ -348,6 +350,8 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 							<div class="col-md-9 content-right">
 								<!--PORTFOLIO IMAGE-->
 								<ul class="portfolio-image">
+									<jdoc:include type="modules" name="portfolio-image" style="none" />
+									<!--
 									<li class="col-md-6">
 										<a href="images/bw-1.png"><img alt="image" src="images/bw-1.png">
 											<div class="decription-wrap">
@@ -414,6 +418,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 										</a>
 									</li>
 								</ul>
+							-->
 								<!--/.PORTFOLIO IMAGE END-->
 							</div>
 						</div>

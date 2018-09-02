@@ -24,5 +24,6 @@
 		<position>logo</position>
 		<position>head-about</position>
 		<position>footer</position>
+		<position>portfolio-image</position>
 	</positions>
 </extension>
