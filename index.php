@@ -52,9 +52,6 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 	<!--Fav-->
 	<link href="images/favicon.ico" rel="shortcut icon">
 	<!--fonts google-->
-	<!--<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-	-->
 	<!--[if lt IE 9]>
 		 <script type="text/javascript" src="js/html5shiv.min.js"></script>
 	<![endif]-->
@@ -79,6 +76,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 				<!--/.LOGO END-->
 			</div>
 			<div class="menu-wrap">
+				<jdoc:include type="modules" name="main_menu" style="none" />
 				<nav class="menu">
 					<div class="menu-list">
 						<a data-scroll="" href="#home" class="active">
