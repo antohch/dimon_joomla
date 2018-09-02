@@ -37,7 +37,8 @@ JHtml::_('stylesheet', 'https://fonts.googleapis.com/css?family=Roboto:400,300,5
 /*$doc = JFactory::getDocument();
 $doc->addScript('templates/'.$this->template. '/js/typed.js');
 $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
-
+$doc = JFactory::getDocument();
+$urlToTemplate = JUri::base(TRUE)."/templates/".$doc->template;
 ?>
 <!DOCTYPE html>
 <html>
@@ -72,7 +73,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 				<!--LOGO-->
 				<div class="col-md-2 col-xs-6 logo">
 					<jdoc:include type="modules" name="logo" style="none" />
-					<a href="index.html"><img alt="logo" class="logo-nav" src="images/logo.png"></a>
+					<a href="<?php echo JUri::base(TRUE);?>"><img alt="logo" class="logo-nav" src="<?php echo $urlToTemplate;?>/images/logo.png"></a>
 				</div>
 				<!--/.LOGO END-->
 			</div>
@@ -80,7 +81,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 				<nav class="menu">
 					<div class="menu-list">
 						<jdoc:include type="modules" name="main_menu" style="none" />
-						<!--
+<!--
 						<a data-scroll="" href="#home" class="active">
 							<span>Home</span>
 						</a>
@@ -111,7 +112,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 						<a data-scroll="" href="#contact">
 							<span>Contact</span>
 						</a>
-					-->
+-->
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>
