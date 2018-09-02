@@ -32,6 +32,8 @@ JHtml::_('stylesheet', 'owl.carousel.css', array('version' => 'auto', 'relative'
 JHtml::_('stylesheet', 'owl.theme.css', array('version' => 'auto', 'relative' => true));
 JHtml::_('stylesheet', 'responsive.css', array('version' => 'auto', 'relative' => true));
 JHtml::_('stylesheet', 'style.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700', array('version' => 'auto'));
+JHtml::_('stylesheet', 'https://fonts.googleapis.com/css?family=Roboto:400,300,500,700', array('version' => 'auto'));
 /*$doc = JFactory::getDocument();
 $doc->addScript('templates/'.$this->template. '/js/typed.js');
 $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
@@ -50,9 +52,9 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 	<!--Fav-->
 	<link href="images/favicon.ico" rel="shortcut icon">
 	<!--fonts google-->
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+	<!--<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-
+	-->
 	<!--[if lt IE 9]>
 		 <script type="text/javascript" src="js/html5shiv.min.js"></script>
 	<![endif]-->
