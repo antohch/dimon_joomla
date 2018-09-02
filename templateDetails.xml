@@ -25,5 +25,6 @@
 		<position>head-about</position>
 		<position>footer</position>
 		<position>portfolio-image</position>
+		<position>on_main_page</position>
 	</positions>
 </extension>

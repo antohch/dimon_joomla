@@ -162,15 +162,13 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/style.css');*/
 									<div class="wrap-about">
 										<div class="w-content">
 											<p class="head-about">
-													текст текст те текст текст тетекст текст тетекст текст тетекст текст те
-												<jdoc:include type="component" />
-
+												<jdoc:include type="modules" name="on_main_page" style="none" />
 											</p>
 
-											<h5 class="name">
+										<!--<h5 class="name">
 												Дмитрий
 											</h5>
-											<img alt="signature" src="images/signature.png">
+											<img alt="signature" src="images/signature.png">-->
 										</div>
 									</div>
 								</div>
